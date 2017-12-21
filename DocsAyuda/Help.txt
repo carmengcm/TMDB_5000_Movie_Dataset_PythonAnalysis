@@ -1,0 +1,8 @@
+- Welcome to the Help Document. -
+
+- All Credits to: Alfonso, Oscar & Carmen 
+
+- Packages required for running this script: (PLEASE INSTALL)
+	- Word cloud: https://github.com/amueller/word_cloud
+
+
