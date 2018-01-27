@@ -263,7 +263,7 @@ def getMostUsedLanguagesDataFrame(pd, dfMain):
     Returns a dataframe with the languages most used in movies
     """
     # Most used languages in the movies
-    file = "~\\Documents\\PRACTICA_PYTHON\\BaseDeDatos\\ISO_Languages.csv"
+    file = "~\\Documents\\TMDB_5000_Movie_Dataset_PythonAnalysis\\BaseDeDatos\\ISO_Languages.csv"
     # Read the csv
     dfLanguages = pd.read_csv(file, encoding="cp437", delimiter = '\t', usecols=['ISO 639-1 Code', 'English name of Language'])
     # Rename columns
@@ -296,7 +296,7 @@ def getGeoLocations(pd):
     Returns a dataframe containing worldwide geolocations
     """
     
-    file = "~\\Documents\\PRACTICA_PYTHON\\BaseDeDatos\\geolocations.csv"
+    file = "~\\Documents\\TMDB_5000_Movie_Dataset_PythonAnalysis\\BaseDeDatos\\geolocations.csv"
     # Obtaining file
     dfGeo = pd.read_csv(file, encoding="cp437", delimiter = ',', quotechar='"')
     return(dfGeo)
