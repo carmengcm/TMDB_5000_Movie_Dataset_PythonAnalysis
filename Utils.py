@@ -312,13 +312,3 @@ def getColorsDictionary():
               15: '#AF0A0A', 16: '#C77D7D', 17: '#6C7D0C', 18: '#93EA9A', 19: '#649996'} 
     return(colors)
 
-def getSex(sexInt):
-    """
-    @P1: int -> str
-    Returns the label female | male for its number
-    """  
-    
-    if sexInt == 1:
-        return 'Female'
-    else:
-        return 'Male' 
